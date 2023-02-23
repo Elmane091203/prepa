@@ -14,7 +14,7 @@ public class Main {
         etudiant.setPrenom("NAFISA");
         etudiant.setMoyenne(18.5);
         etudiant.setClasse(classe);
-        etudiant.setMatricule(etudiant.generateMatricule());
+        etudiant.setMatricule();
         System.out.println(etudiant.getNom()+ etudiant.getPrenom()+etudiant.getMoyenne()+etudiant.getMatricule());
 
         //etudiant.getClasse().getNom();
