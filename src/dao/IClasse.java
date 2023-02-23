@@ -1,4 +1,6 @@
 package dao;
 
-public interface IClasse {
+import entity.Classe;
+
+public interface IClasse extends Repository<Classe> {
 }

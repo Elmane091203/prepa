@@ -37,8 +37,8 @@ public class Etudiant {
         return matricule;
     }
 
-    public void setMatricule() {
-        this.matricule = generateMatricule();
+    public void setMatricule(String matricule) {
+        this.matricule = matricule;
     }
 
     public String getNom() {
@@ -72,7 +72,7 @@ public class Etudiant {
     public void setClasse(Classe classe) {
         this.classe = classe;
     }
-    private String generateMatricule()
+    public String generateMatricule()
     {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
         String date = dateFormat.format(new Date());
